@@ -1,0 +1,11 @@
+.header__lang-link_speak {
+    margin-right: 18px;
+}
+
+.header__lang-link_speak:last-of-type {
+    margin-right: 0;
+}
+
+.header__lang-link_speak:hover {
+    text-decoration: underline;
+}
