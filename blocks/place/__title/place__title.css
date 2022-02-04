@@ -1,9 +1,10 @@
 .place__title {
-    grid-column: 1 2;
+    grid-area: place__title;
     width: 440px;
     height: 152px;
     font-weight: 900;
     font-style: normal;
     font-size: 72px;
     line-height: 76px;
+    margin: 0 0 21px;
 }

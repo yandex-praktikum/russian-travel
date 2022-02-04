@@ -1,6 +1,13 @@
 .place {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-
+    grid-template-areas: 
+    'place__title place__website'
+    'place__image place__paragraph_number_1'
+    'place__image place__paragraph_number_2';
+    /* grid-template-columns: repeat(auto-fit, minmax(288px, 1fr)); */
+    width: 91%;
+    row-gap: 27px;
+    column-gap: 32px;
+    margin: 0 auto;
+    align-items: flex-end;
 }

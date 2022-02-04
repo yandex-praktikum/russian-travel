@@ -1,0 +1,6 @@
+.place__website {
+    grid-area: place__website;
+    width: 456px;
+    margin: 0 0 21px;
+
+}
