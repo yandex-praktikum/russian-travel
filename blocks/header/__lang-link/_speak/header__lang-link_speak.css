@@ -1,5 +1,10 @@
 .header__lang-link_speak {
     margin-right: 18px;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 .header__lang-link_speak:last-of-type {
