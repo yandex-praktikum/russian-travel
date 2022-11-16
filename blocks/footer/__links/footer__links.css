@@ -1,0 +1,17 @@
+.footer__links {
+  display: flex;
+  grid-gap:18px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+
+@media (max-width: 425px) {
+    .footer__links {
+	  flex-direction: column;
+	  grid-gap: 32px;
+	  font-size: 24px;
+	  line-height: 24px;
+	}
+}

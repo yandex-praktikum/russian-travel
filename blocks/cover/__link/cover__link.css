@@ -1,0 +1,16 @@
+.cover__link {
+  text-decoration: none;
+  color: #ffffff;
+  z-index: 3;
+  position: relative;
+}
+.cover__link:hover {
+  opacity: 0.8;
+}
+
+
+@media (max-width: 425px) {
+     .cover__link {
+       max-width: 255px;
+     }
+}

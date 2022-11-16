@@ -1,0 +1,26 @@
+.places__wrapper {
+  max-width: 984px;
+  margin: 92px auto 0;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 80px;
+}
+
+@media (max-width: 1024px) {
+  .places__wrapper {
+  	max-width: 928px;
+  }
+}
+@media (max-width: 768px) {
+  .places__wrapper {
+  	max-width: 720px;
+  	margin: 88px auto 0;
+  	grid-gap: 73px;
+  }
+}
+@media (max-width: 425px) {
+    .places__wrapper {
+      margin: 64px auto 0;
+      grid-gap: 50px;
+    }
+}
