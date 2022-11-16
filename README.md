@@ -14,6 +14,8 @@ ___
 
 *Верстка страницы сделана с применением Flexbox и Grid , для адаптации испульзуются медиа запросы.*
 
+**Ссылка на GitHub Pages:**
+*https://frontendz7.github.io/russian-travel/*
 ___
 **Технологии на сайте:**
 *html5 , css3 , breakpoints , БЭМ (Nested)*
