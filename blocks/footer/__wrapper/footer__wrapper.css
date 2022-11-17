@@ -17,9 +17,9 @@
   }
 }
 @media (max-width: 425px) {
-    .footer__wrapper {
+  .footer__wrapper {
 	  flex-direction: column;
 	  max-width: 288px;
-	  margin: 64px auto 0;
+	  margin-top: 64px;
 	}
 }
