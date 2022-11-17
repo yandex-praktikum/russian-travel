@@ -1,0 +1,25 @@
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 92px auto 0;
+  padding-bottom: 24px;
+  max-width: 1184px;
+}
+
+@media (max-width: 1024px) {
+  .footer__wrapper {
+  	max-width: 928px;
+  }
+}
+@media (max-width: 768px) {
+  .footer__wrapper {
+  	max-width: 720px;
+  }
+}
+@media (max-width: 425px) {
+  .footer__wrapper {
+	  flex-direction: column;
+	  max-width: 288px;
+	  margin-top: 64px;
+	}
+}
